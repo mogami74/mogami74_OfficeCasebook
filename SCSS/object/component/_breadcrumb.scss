@@ -1,0 +1,24 @@
+/* _breadcrumb.scss Document */
+
+$breadcrumb-size:90px;
+
+
+.c-breadcrumb{
+	font-size: 9px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 8px;
+}
+.c-breadcrumb-item{
+	display:inline-flex;
+	width:$breadcrumb-size;
+	height:$breadcrumb-size;
+	line-height: 140%;
+	border: 1px solid rgb(39, 71, 98);
+	margin:0 2px;
+	align-items: flex-end;
+	padding: 10px;
+}
+.c-breadcrumb-item::after{
+	content:' > ';
+}

@@ -1,0 +1,27 @@
+/* _base.scss Document */
+$sm: 768px;
+$pc: 960px;
+$lg: 1200px;
+
+body{
+	font-size:16px;
+	line-height: 140%;
+}
+h2{
+	margin-top:1.5em;
+}
+h3{
+	margin-top:1em;
+}
+a{
+  color:rgba(37,40,94,1.00);
+  text-decoration: none;
+}
+a:visited{
+  color:rgb(133,133,133);
+}
+a:hover,a:active{
+  color: rgb(73, 78, 182);
+  filter: brightness(110%);
+  text-decoration: underline;
+}

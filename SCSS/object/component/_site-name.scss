@@ -1,0 +1,12 @@
+/* _site-name.scss Document */
+
+$site-logo-size:90px;
+.c-site-name{
+	font-size:16px;
+	color: rgb(255,255,255);
+	background-color: rgb(39, 71, 98);
+	width:$site-logo-size;
+	height:$site-logo-size;
+	display:inline-flex;
+	margin:0 2px 2px;
+}

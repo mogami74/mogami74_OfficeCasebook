@@ -1,0 +1,37 @@
+/* _article.scss Document */
+
+$article-padding:8px;
+
+.l-article{
+	width:100%;
+}
+.l-article__header{
+	display: flex;
+	flex-wrap: wrap;
+  align-items: center;
+}
+.l-article__body{
+	padding:$article-padding 10px;
+}
+.l-article__body h2{
+}
+.l-article__body p{
+	line-height: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+}
+.l-article__body img{
+	padding:2px;
+	max-width: 100%;
+	height: auto;
+	border: 4px solid rgb(40, 72, 98);
+}
+.l-article__body li{
+	margin-left:20px;
+}
+.l-article__footer{
+	padding:$article-padding;
+}
+.l-article__navi{
+	
+}

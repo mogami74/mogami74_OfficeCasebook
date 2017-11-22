@@ -1,0 +1,35 @@
+/* _main.scss Document */
+
+.l-main{
+	display: flex;
+	flex-wrap: nowrap;
+  overflow-x: hidden;
+  padding: 0 calc((100% - 960px) / 2);
+}
+
+.l-main__wrapper{
+	width:100%;
+	flex-shrink: 0;
+	flex-basis: 92%;
+	max-width: 468px;
+}
+
+@media screen and (min-width:$sm){
+	.l-main__wrapper{
+		flex-shrink: 1;
+		width:calc(100% - 330px);
+		max-width:600px;
+	}
+}
+@media screen and (min-width:$sm){
+	.l-main{
+	}
+	.l-main__wrapper{
+		max-width:600px;
+	}
+}
+
+@media screen and (min-width:$lg){
+	.l-main__wrapper{
+	}
+}

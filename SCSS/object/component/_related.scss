@@ -1,0 +1,20 @@
+/* _related.scss Document */
+
+.c-related{
+	display: flex;
+	flex-wrap: wrap;
+}
+.c-related h3{
+	width:100%;
+}
+.c-related__item{
+	margin: 2px;
+	width:120px;
+}
+.c-related__item img{
+	margin:0 4px;
+}
+.c-related__title{
+	padding: 4px;
+	font-size:9px;
+}

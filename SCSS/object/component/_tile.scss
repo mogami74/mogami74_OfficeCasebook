@@ -1,0 +1,21 @@
+/* _tile.scss Document */
+
+
+$excelcolor:rgb(31, 105, 62);
+$wordcolor:rgb(37, 76, 142);
+$pptcolor:rgb(209, 77, 51);
+.c-tile{
+	color:white;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.c-tile__excel{
+	background-color: $excelcolor;
+}
+.c-tile__word{
+	background-color: rgb(37, 76, 142);
+}
+.c-tile__powerpoint{
+	background-color:  rgb(209, 77, 51);
+}
+

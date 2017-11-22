@@ -1,0 +1,24 @@
+/*_blog-header.scss Document*/
+
+
+#l-blog-header{
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+  padding: 0 calc((100% - 960px) / 2);
+
+}
+
+@media screen and (min-width:$sm){
+	#l-blog-header{
+	}
+}
+@media screen and (min-width:$pc){
+	#l-blog-header{
+	}
+}
+
+@media screen and (min-width:$lg){
+	#l-blog-header{
+	}
+}
