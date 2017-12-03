@@ -177,7 +177,8 @@ a:hover, a:active {
   width: 50px;
   height: 45px;
   background-color: rgba(255, 122, 122, 0.1);
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 2px; }
 
 /* Scss Document */
 /* Scss Document */
@@ -192,14 +193,20 @@ a:hover, a:active {
   font-weight: bold;
   margin-right: 5px; }
 
-.c-tile__excel {
+.c-tile__xlsx {
   background-color: #1f693e; }
 
-.c-tile__word {
-  background-color: #254c8e; }
+.c-tile__outlook {
+  background-color: #1f693e; }
 
-.c-tile__powerpoint {
+.c-tile__pc {
+  background-color: #334d33; }
+
+.c-tile__pptx {
   background-color: #d14d33; }
+
+.c-tile__docx {
+  background-color: #254c8e; }
 
 /* _site-name.scss Document */
 .c-site-name {
