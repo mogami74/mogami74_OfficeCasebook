@@ -1,5 +1,6 @@
-<?php get_header(); ?>
-				<main class="l-main">
+<?php get_template_part('header','single'); ?>
+<!--single.php-->
+			<main class="l-main">
 			<div class="l-main__wrapper">
 			<!--ループ開始-->
 			<?php get_template_part('loop'); ?>
