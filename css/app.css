@@ -192,13 +192,13 @@ a:hover, a:active {
   font-weight: bold;
   margin-right: 5px; }
 
-.c-tile__excel {
+.c-tile__xlsx {
   background-color: #1f693e; }
 
-.c-tile__word {
+.c-tile__docx {
   background-color: #254c8e; }
 
-.c-tile__powerpoint {
+.c-tile__pptx {
   background-color: #d14d33; }
 
 /* _site-name.scss Document */
