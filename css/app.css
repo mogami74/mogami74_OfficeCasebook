@@ -212,16 +212,16 @@ a:hover, a:active {
   background-color: #254c8e; }
 
 .c-breadcrumb-item.c-tile__pptx, .c-tile__outlook {
-  background-color: #2067B1; }
+  background-color: #rgb 32, 103, 177; }
 
 .c-breadcrumb-item.c-tile__pptx, .c-tile__pc {
-  background-color: #D5F5FD; }
+  background-color: #rgb 234, 157, 28; }
 
 .c-breadcrumb-item.c-tile__pptx, .c-tile__pptx {
   background-color: #d14d33; }
 
 .c-breadcrumb-item.c-tile__pptx, .c-tile__etc {
-  background-color: #EA8D1C; }
+  background-color: #ea8d1c; }
 
 /* _site-name.scss Document */
 .c-site-name a {
