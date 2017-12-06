@@ -120,6 +120,9 @@ a:hover, a:active {
   margin-top: 22px;
   padding: 9px; }
 
+.l-sidebar h2 {
+  display: none; }
+
 .l-sidebar li {
   list-style: none; }
 
