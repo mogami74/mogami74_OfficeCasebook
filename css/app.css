@@ -67,6 +67,9 @@ a:hover, a:active {
 .l-article__footer {
   padding: 8px; }
 
+.l-article__navi h3 {
+  display: none; }
+
 /* _l-contents.scss Document */
 .l-contents {
   display: block;
