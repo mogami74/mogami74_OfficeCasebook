@@ -19,6 +19,10 @@ add_action('wp_enqueue_scripts',function(){
 	wp_register_style('app',get_template_directory_uri().'/css/app.css',array(),'20170313','screen');
 	wp_enqueue_style('app');
 });
+function my_scripts(){
+	wp_enqueue_script('jquery');
+}
+add_action('wp_enqueue_scripts','my_scripts');
 /**
  * Widget API: 
  */
