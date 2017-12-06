@@ -9,6 +9,9 @@ $breadcrumb-size:90px;
 	flex-wrap: wrap;
 	margin-top: 8px;
 }
+.c-breadcrumb li{
+  list-style: none;
+}
 .c-breadcrumb-item{
 	display:inline-flex;
 	width:$breadcrumb-size;

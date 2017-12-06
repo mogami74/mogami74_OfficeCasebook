@@ -223,6 +223,9 @@ a:hover, a:active {
   flex-wrap: wrap;
   margin-top: 8px; }
 
+.c-breadcrumb li {
+  list-style: none; }
+
 .c-breadcrumb-item {
   display: inline-flex;
   width: 90px;
