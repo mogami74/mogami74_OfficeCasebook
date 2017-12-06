@@ -123,6 +123,10 @@ a:hover, a:active {
 .l-sidebar h2 {
   display: none; }
 
+.l-sidebar h3 {
+  font-size: 12px;
+  border-bottom: 1px solid #376486; }
+
 .l-sidebar li {
   list-style: none; }
 
@@ -175,11 +179,15 @@ a:hover, a:active {
   font-size: 10px;
   margin-top: 8px; }
 
-.c-entry__tag {
+.c-entry__tag a {
   width: 50px;
   height: 45px;
-  background-color: rgba(255, 122, 122, 0.1);
-  display: inline-block; }
+  background-color: #376486;
+  display: inline-flex;
+  align-items: flex-end;
+  padding: 5px;
+  color: white;
+  margin-left: 2px; }
 
 /* Scss Document */
 /* Scss Document */
@@ -194,13 +202,13 @@ a:hover, a:active {
   font-weight: bold;
   margin-right: 5px; }
 
-.c-breadcrumb-item.c-tile__xlsx {
+.c-breadcrumb-item.c-tile__xlsx, .c-tile__xlsx {
   background-color: #1f693e; }
 
-.c-breadcrumb-item.c-tile__docx {
+.c-breadcrumb-item.c-tile__docx, .c-tile__docx {
   background-color: #254c8e; }
 
-.c-breadcrumb-item.c-tile__pptx {
+.c-breadcrumb-item.c-tile__pptx, .c-tile__pptx {
   background-color: #d14d33; }
 
 /* _site-name.scss Document */

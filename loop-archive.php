@@ -14,7 +14,9 @@
 						<h2 class="l-title c-entry__title"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
 						<div class="c-entry__date">投稿日: <br /><time pubdate="pubdate"><?php the_time('c'); ?></time></div>
 						<div class="c-entry__date">最終更新日: <br />2017-08-30</div>
-						<div class="c-entry__tag-list"><span class="c-entry__tag">tag1</span>,<span class="c-entry__tag">tag2</span>,<span class="c-entry__tag">tag3</span></div>
+						<div class="c-entry__tag-list">
+							<?php the_tags('<span class="c-entry__tag">','</span><span class="c-entry__tag">','</span>'); ?>
+            </div>
 					</header>
 					<div class="l-article__body">
 						<?php the_excerpt(); ?>

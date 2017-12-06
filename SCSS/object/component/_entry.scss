@@ -30,10 +30,16 @@ $header-tag-margin:8px;
 	font-size: 10px;
 	margin-top: $header-tag-margin;
 }
-.c-entry__tag {
-    width: 50px;
-    height: 45px;
-    background-color: rgba(255, 122, 122, 0.1);
-    display: inline-block;
+.c-entry__tag{
+}
+.c-entry__tag a{
+  width: 50px;
+  height: 45px;
+  background-color: rgb(55, 100, 134);
+  display: inline-flex;
+  align-items: flex-end;
+  padding:5px;
+  color:rgb(255,255,255);
+  margin-left: 2px;
 }
 
