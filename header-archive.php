@@ -20,8 +20,17 @@
 <body>
 	<div class="l-ad-full">
 		<p class="c-ad-wrap__sponsored">sponsored link</p>
-		<p style="border:1px solid blue;width:320px;height: 100px;">Google AdSense</p>
-	</div>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- OfficeCasebook Responsive -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6797100308681073"
+         data-ad-slot="7596323228"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
 	<div id="l-blog-container">
 		<header id="l-blog-header" class="l-contents">
 			<h1 class="c-breadcrumb">
