@@ -100,16 +100,15 @@ a:hover, a:active {
   width: 100%;
   flex-shrink: 0;
   flex-basis: 92%;
-  max-width: 468px; }
+  max-width: 468px;
+  margin-right: 10px; }
 
 @media screen and (min-width: 768px) {
   .l-main__wrapper {
     flex-shrink: 1;
     width: calc(100% - 330px);
-    max-width: 600px; } }
-@media screen and (min-width: 768px) {
-  .l-main__wrapper {
-    max-width: 600px; } }
+    max-width: 600px;
+    margin-right: 10px; } }
 /* _sidebar.scss Document */
 .l-sidebar {
   width: 320px;
@@ -192,24 +191,27 @@ a:hover, a:active {
   font-weight: bold;
   margin-right: 5px; }
 
-.c-tile__xlsx {
+.c-breadcrumb-item.c-tile__xlsx {
   background-color: #1f693e; }
 
-.c-tile__docx {
+.c-breadcrumb-item.c-tile__docx {
   background-color: #254c8e; }
 
-.c-tile__pptx {
+.c-breadcrumb-item.c-tile__pptx {
   background-color: #d14d33; }
 
 /* _site-name.scss Document */
-.c-site-name {
+.c-site-name a {
   font-size: 16px;
   color: white;
   background-color: #274762;
   width: 90px;
   height: 90px;
   display: inline-flex;
-  margin: 0 2px 2px; }
+  margin: 0 2px 2px;
+  align-items: flex-end;
+  padding-left: 10px;
+  padding-bottom: 10px; }
 
 /* _breadcrumb.scss Document */
 .c-breadcrumb {
@@ -223,13 +225,11 @@ a:hover, a:active {
   width: 90px;
   height: 90px;
   line-height: 140%;
-  border: 1px solid #274762;
   margin: 0 2px;
   align-items: flex-end;
-  padding: 10px; }
-
-.c-breadcrumb-item::after {
-  content: ' > '; }
+  padding: 10px;
+  background-color: #284861;
+  color: #f0f0f0; }
 
 /* _related.scss Document */
 .c-related {

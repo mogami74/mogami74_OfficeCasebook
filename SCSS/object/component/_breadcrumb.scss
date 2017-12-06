@@ -14,11 +14,11 @@ $breadcrumb-size:90px;
 	width:$breadcrumb-size;
 	height:$breadcrumb-size;
 	line-height: 140%;
-	border: 1px solid rgb(39, 71, 98);
 	margin:0 2px;
 	align-items: flex-end;
 	padding: 10px;
+  background-color: rgb(40,72,97);
+  color:rgb(240,240,240);  
 }
 .c-breadcrumb-item::after{
-	content:' > ';
 }

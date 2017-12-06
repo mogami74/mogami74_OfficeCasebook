@@ -6,14 +6,15 @@
       jQuery(function($){
         var doc=$(document);
         var lmain=$('.l-main__wrapper');
-				var lblogcontainer=$('#l-blog-container');
-				console.log(window.innerWidth);
+        var lblogcontainer=$('#l-blog-container');
+        console.log(window.innerWidth);
+        doc.on('click', '#sidebar a', function(){　event.stopPropagation();　});
         doc.on('click', '#sidebar', function(){
-					if(window.innerWidth < 768){
-						var lmain_width=parseInt(lmain.css('width'));
-						var moveNecessary=320+lmain_width-parseInt(lblogcontainer.css('width'));
-						var tglMargin=-moveNecessary-parseInt(lmain.css('margin-left'));
-						lmain.animate({marginLeft:tglMargin+'px'},500);
+          if(window.innerWidth < 768){
+            var lmain_width=parseInt(lmain.css('width'));
+            var moveNecessary=320+lmain_width-parseInt(lblogcontainer.css('width'));
+            var tglMargin=-moveNecessary-parseInt(lmain.css('margin-left'));
+            lmain.animate({marginLeft:tglMargin+'px'},500);
 					}
         });
       });

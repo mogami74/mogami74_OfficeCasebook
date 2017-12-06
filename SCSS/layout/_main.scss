@@ -12,6 +12,7 @@
 	flex-shrink: 0;
 	flex-basis: 92%;
 	max-width: 468px;
+  margin-right: 10px;
 }
 
 @media screen and (min-width:$sm){
@@ -19,13 +20,7 @@
 		flex-shrink: 1;
 		width:calc(100% - 330px);
 		max-width:600px;
-	}
-}
-@media screen and (min-width:$sm){
-	.l-main{
-	}
-	.l-main__wrapper{
-		max-width:600px;
+  margin-right: 10px;
 	}
 }
 
