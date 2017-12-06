@@ -190,7 +190,9 @@ a:hover, a:active {
   align-items: flex-end;
   padding: 5px;
   color: white;
-  margin-left: 2px; }
+  margin-left: 2px;
+  white-space: nowrap;
+  overflow: hidden; }
 
 /* Scss Document */
 /* Scss Document */
