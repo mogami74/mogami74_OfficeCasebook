@@ -5,7 +5,7 @@
 						<?php 
 							$categry = get_the_category();
 							for($i=0;$i<count($categry);$i++){
-								echo '<li class="c-category__item c-tile c-tile__powerpoint">';
+								echo '<li class="c-category__item c-tile c-tile__'.$categry[$i]->category_nicename.'">';
 								echo $categry[$i]->category_nicename;
 								echo '</li>'; 
 							}
