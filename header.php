@@ -3,7 +3,8 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
-<!--	<link rel="stylesheet" href="<? echo get_stylesheet_directory_uri(); ?>/style.css" />-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!--	<link rel="stylesheet" href="<? echo get_stylesheet_directory_uri(); ?>/style.css" />-->
 	<style>
 		body *{
 /*			border:1px solid rgba(0,0,25,0.1); just for testing*/
