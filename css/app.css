@@ -138,6 +138,9 @@ a:hover, a:active {
   font-size: 9px;
   padding: 0 10px 0; }
 
+.adsbygoogle {
+  width: 100%; }
+
 /* Scss Document */
 /* category.scss Document */
 .c-category {
@@ -200,6 +203,9 @@ a:hover, a:active {
 .c-ad-wrap__sponsored {
   font-size: 9px;
   padding: 0 10px 0; }
+
+.adsbygoogle {
+  width: 100%; }
 
 /* _tile.scss Document */
 .c-tile {

@@ -29,7 +29,7 @@
          data-ad-slot="7596323228"
          data-ad-format="auto"></ins>
     <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    jQuery(document).ready(function(){(adsbygoogle = window.adsbygoogle || []).push({});});
     </script>
   </div>
 	<div id="l-blog-container">
