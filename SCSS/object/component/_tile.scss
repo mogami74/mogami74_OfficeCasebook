@@ -1,9 +1,11 @@
 /* _tile.scss Document */
 
-
 $excelcolor:rgb(31, 105, 62);
 $wordcolor:rgb(37, 76, 142);
 $pptcolor:rgb(209, 77, 51);
+$officeCasebookIndigo:rgb(14,38,80);
+$lightOfficeCasebookIndigo:lighten($officeCasebookIndigo, 90%);
+
 .c-tile{
 	color:white;
 	font-weight: bold;
@@ -16,10 +18,10 @@ $pptcolor:rgb(209, 77, 51);
 	background-color: rgb(37, 76, 142);
 }
 .c-breadcrumb-item.c-tile__pptx,.c-tile__outlook{
-	background-color:  #rgb(32, 103, 177);
+	background-color:  rgb(32, 103, 177);
 }
 .c-breadcrumb-item.c-tile__pptx,.c-tile__pc{
-	background-color:  #rgb(234, 157, 28);
+	background-color:  rgb(234, 157, 28);
 }
 .c-breadcrumb-item.c-tile__pptx,.c-tile__pptx{
 	background-color:  rgb(209, 77, 51);
@@ -27,5 +29,6 @@ $pptcolor:rgb(209, 77, 51);
 .c-breadcrumb-item.c-tile__pptx,.c-tile__etc{
 	background-color:  rgb(234, 141, 28);
 }
-
-
+.c-breadcrumb-item.c-tile__pptx,.c-tile__excel-master{
+	background-color:  $officeCasebookIndigo;
+}

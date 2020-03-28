@@ -3,6 +3,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 <!--	<link rel="stylesheet" href="<? echo get_stylesheet_directory_uri(); ?>/style.css" />-->
 	<style>
 		body *{
@@ -28,7 +29,7 @@
          data-ad-slot="7596323228"
          data-ad-format="auto"></ins>
     <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    jQuery(document).ready(function(){(adsbygoogle = window.adsbygoogle || []).push({});});
     </script>
   </div>
 	<div id="l-blog-container">

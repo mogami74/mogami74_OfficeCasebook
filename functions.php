@@ -9,20 +9,25 @@ add_action('widgets_init',function(){
 	register_sidebar(array(
 		'name'=>'sidebar1',
 		'id'=>'sidebar-1',
-		'before_widget' => '<nav id="%1$s" class="widget-cintainer %2$s">',
+		'before_widget' => '<nav id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</nav>',
 		'before_title' => '<h3 class="widget-title hide">',
 		'after_title' => '</h3>',
 	));
 });
+/* ▼ココカラ CSS有効化*/
 add_action('wp_enqueue_scripts',function(){
 	wp_register_style('app',get_template_directory_uri().'/css/app.css',array(),'20170313','screen');
 	wp_enqueue_style('app');
 });
+/* ▲ココマデ CSS有効化*/
+/* ▼ココカラ jquery有効化*/
 function my_scripts(){
 	wp_enqueue_script('jquery');
 }
 add_action('wp_enqueue_scripts','my_scripts');
+/* ▲ココマデ jquery有効化*/
+/* ▼ココカラ ウィジェット OfficeCasebook Categories */
 /**
  * Widget API: 
  */
@@ -146,3 +151,11 @@ class OfficeCasebook_Categories extends WP_Widget {
 add_action('widgets_init',function(){
 	register_widget('officecasebook_categories');
 });
+
+/*  ▲ココマデ  ウィジェット OfficeCasebook Categories */
+/* ▼ココカラ featured image を有効化*/
+function twpp_setup_theme() {
+  add_theme_support( 'post-thumbnails' );
+}
+add_action( 'after_setup_theme', 'twpp_setup_theme' );
+/* ▲ココマデ featured image を有効化*/

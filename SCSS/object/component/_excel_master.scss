@@ -1,0 +1,46 @@
+/* _entry.scss Document */
+
+$category_box_padding:8px;
+$officeCasebookIndigo:rgb(14,38,80);
+$lightOfficeCasebookIndigo:lighten($officeCasebookIndigo, 90%);
+
+#c_category_nav__prev,#c_category_nav__next{
+  border:1px solid $officeCasebookIndigo;
+  padding:$category_box_padding;
+}
+#c_category_nav__prev__link{}
+#c_category_nav__prev__link #c_category_nav__indicator::before{
+  content: "▲";
+  display:inline-block;
+  transform: rotate(-90deg);
+}
+#c_category_nav__next__link #c_category_nav__indicator::after{
+  content: "▲";
+  display:inline-block;
+  transform: rotate(90deg);
+}
+#c_category_nav__indicator{
+  color:$lightOfficeCasebookIndigo;
+  font-weight: bold;
+  background-color: $officeCasebookIndigo;
+  width:6em;
+  text-align: center;
+}
+#c_category_nav__title{
+  padding:16px 8px;
+  font-size:24px;
+}
+
+.category-excel-master code{
+  margin: 8px;
+  padding: 4px 8px;
+  border: 1px solid rgb(0,0,0);
+  border-radius: 4px;
+}
+
+.category-excel-master h2, .category-excel-master h3{
+  line-height: 1.6em;
+}
+.category-excel-master .l-article__body p{
+  line-height: 2em;
+}
