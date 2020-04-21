@@ -1,4 +1,5 @@
 /* _ref.scss Document */
+$light_blue: rgb(205, 233, 254);
 
 .c-ref {
   font-size: 14px;
@@ -7,4 +8,13 @@
   background-color: #a3d3ff;
   padding: 4px 12px;
   border-radius: 20px;
+}
+
+.c-ref::before{
+  content:"参考";
+  border-radius: 4px;
+  background-color: $light_blue;
+  margin: 4px;
+  padding: 4px;
+  display: inline-block;
 }
