@@ -159,3 +159,22 @@ function twpp_setup_theme() {
 }
 add_action( 'after_setup_theme', 'twpp_setup_theme' );
 /* ▲ココマデ featured image を有効化*/
+
+
+/*タクソノミーで絞り込み*/
+add_action( 'restrict_manage_posts', 'add_custom_taxonomies_term_filter' );
+function add_custom_taxonomies_term_filter() {
+    global $post_type;
+    if ( $post_type == 'post' ) {
+        $taxonomy = 'refactoring';
+        wp_dropdown_categories( array(
+            'show_option_all' => 'すべてのカテゴリー',
+            'orderby' => 'name',
+            'selected' => get_query_var( $taxonomy ),
+            'hide_empty' => 0,
+            'name' => $taxonomy,
+            'taxonomy' => $taxonomy,
+            'value_field' => 'slug',
+        ) );
+    }
+}

@@ -16,9 +16,9 @@ $article-padding:8px;
 .l-article__body h2{
 }
 .l-article__body p{
-	line-height: 1.5em;
-	margin-top: 0.5em;
-	margin-bottom:0.5em;
+	line-height: 2em;
+	margin-top: 2em;
+	margin-bottom: 1em;
 }
 .l-article__body img{
 	padding:2px;
@@ -34,4 +34,29 @@ $article-padding:8px;
 }
 .l-article__navi h3{
 	display: none;
+}
+
+ul.comment_list li {
+	margin: 2em 0 0 1em;
+}
+
+.comment-author.vcard {
+	font-size: 12px;
+}
+
+.comment-meta.commentmetadata {
+	font-size: 12px;
+
+}
+
+.comment-body p {
+	margin: 0.5em 0 0.5em 0.5em;
+}
+
+.reply {
+	margin: 0.5em 0 0.5em 0.5em;
+}
+textarea#comment {
+	width: 100%;
+	height: 200px;
 }
