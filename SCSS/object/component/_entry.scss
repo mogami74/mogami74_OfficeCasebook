@@ -45,3 +45,11 @@ $header-tag-margin:8px;
   overflow: hidden;
 }
 
+@media screen and (min-width:$xlg) {
+  //画像の右寄せ
+  .wp-block-image {
+    float: right;
+    clear:both;
+    margin: 0 30px 30px;
+  }
+}

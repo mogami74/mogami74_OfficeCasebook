@@ -14,6 +14,14 @@ $article-padding:8px;
 	padding:$article-padding 10px;
 }
 .l-article__body h2{
+	border-bottom:2px solid rgb(100,100,100);
+	padding-bottom: 4px;
+}
+.l-article__body h3{
+	border-bottom:1px solid rgb(100,100,100);
+	padding-top:4px;
+	padding-bottom: 4px;
+	background-color: rgb(240,240,240);
 }
 .l-article__body p{
 	line-height: 2em;
@@ -59,4 +67,18 @@ ul.comment_list li {
 textarea#comment {
 	width: 100%;
 	height: 200px;
+@media screen and (min-width:$xlg) {
+	//画像の右寄せ
+	.l-article__body>* {
+		width: 48%;
+	}
+	.l-article__body>h2,.l-article__body>h3,.l-article__body>h4,.l-article__body>h5,.l-article__body>h6 {
+		clear:both;
+		width:100%;
+		border-bottom:1px solid rgb(100,100,100);
+	}
+
+	.l-article__footer {
+		clear: both;
+	}
 }

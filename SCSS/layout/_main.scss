@@ -24,7 +24,13 @@
 	}
 }
 
-@media screen and (min-width:$lg){
-	.l-main__wrapper{
+@media screen and (min-width:$xlg) {
+	//画像の右寄せ
+	.l-main{
+		padding: 0 10px;
+	}
+	.l-main__wrapper {
+		width: 100%;
+		max-width: 100%;
 	}
 }

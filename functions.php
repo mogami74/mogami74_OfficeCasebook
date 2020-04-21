@@ -9,7 +9,7 @@ add_action('widgets_init',function(){
 	register_sidebar(array(
 		'name'=>'sidebar1',
 		'id'=>'sidebar-1',
-		'before_widget' => '<nav id="%1$s" class="widget-cintainer %2$s">',
+		'before_widget' => '<nav id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</nav>',
 		'before_title' => '<h3 class="widget-title hide">',
 		'after_title' => '</h3>',

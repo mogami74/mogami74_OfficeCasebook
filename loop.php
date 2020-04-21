@@ -22,12 +22,11 @@
 						<?php the_content(); ?>
 					</div>
 					<footer class="l-article__footer">
-						<section>
-							<?php comments_template(); ?>
-						</section>
+                       <?php get_template_part('components/excel_master'); ?>
+                       <?php comments_template(); ?>
 					</footer>
 					<?php if(is_single()): ?>
-					<nav class="l-article__navi">
+                        <nav class="l-article__navi">
 						<h3>navigation</h3>
 						
 						<div><?php 

@@ -1,7 +1,9 @@
 /* _base.scss Document */
 $sm: 768px;
-$pc: 960px;
+$md: 960px;
 $lg: 1200px;
+$xlg: 1440px;
+
 
 body{
 	font-size:16px;
@@ -12,7 +14,9 @@ h2{
     margin-bottom: 1em;
 }
 h3{
-	margin-top:1em;
+  margin-top:1em;
+  margin-bottom: 0.6em;
+
 }
 a{
   color:rgba(37,40,94,1.00);
@@ -26,4 +30,13 @@ a:hover,a:active{
   filter: brightness(110%);
   text-decoration: underline;
 }
-
+blockquote {
+  margin: 2em 0 2em 1em ;
+  border-left: 5px solid #f7e0a0;
+  padding-left:  1em;
+  font-size: 0.9em;
+}
+pre {
+  white-space: normal;
+  padding: 32px 8px;
+}
